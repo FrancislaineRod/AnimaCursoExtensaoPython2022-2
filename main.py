@@ -1,24 +1,13 @@
-# Meu primeiro projeto python!!!
-#
-#print() = comando de saída
-print("Aló Mundo!")
+# comando input(): quero permitir que o usuário digite algo...
+nome = input("Digite seu nome: ")
+#pedir idade...
+idade = int(input("Digite a sua idade: "))
 
-# quando quiser guardar uma String!
-nome = "Francislaine Rodrigues"
-# quando quiser guardar um inteiro!
-idade = 24
+#comando de saída...exibir na tela
+print(f"Boa Noite,seu nome é {nome}")
+#mostrar idade...
+print("Sua idade é {}".format(idade))
 
-#Exibir o meu nome que está dentro da variável nome e idade que está dentro da variável idade.
-#print("Meu nome é ",nome, " e minha idade é ",idade,"anos")
-
-print("Minha idade é "+str(idade))
-print(f"Minha idade é {idade}\n")
-print("Minha idade é {}".format(idade))
-
-#quando quiser exibir "Meu nome é ... e tenho... anor" trocando pelas variáveis nome e idade
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
-
-'''
-comentário em bloco
-
-'''
+#e se eu quisesse mostrar o DOBRO  da idade informada?
+dobro = idade * 2
+print("O dobro da idade informada é {}".format(dobro))
